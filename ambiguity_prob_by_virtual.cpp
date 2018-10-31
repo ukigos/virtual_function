@@ -44,6 +44,8 @@ public:
     cout<<"Values are: "<<e<<" and "<<f<<endl;
   }
 };
+
+// scope resolution operator is used to access the particular members of the specific class.
 class fourth : public two, public three
 {
 protected:
